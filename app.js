@@ -5,13 +5,13 @@ var motd = 'Welcome to mc.huoh.fi';
 
 /* Oskari "Nahkiss" Kantoniemi -- 20.09.2011 */
 // Define op file here to allow only operators use specified commands
-var opfile = '/home/minecraft/minecraft/ops.txt';
+var opfile = 'tmp';
 var fs = require('fs');
 var ops = fs.readFileSync(opfile).toString().split("\n");
 
 var options =
   { server: 'irc.cc.tut.fi'
-  , nick: 'McHuohh'
+  , nick: 'Mc_fck'
   , channels: ['#mc.huoh.fi']
   }
 
@@ -235,8 +235,8 @@ items[2257] = "Green Music Disc";
 
 
 
-// var jerk = require('jerk')
-var jerk = require( './Jerk/lib/jerk' )
+var jerk = require('jerk')
+//var jerk = require( './Jerk/lib/jerk' )
 
 var nodebot = jerk(function(j) {
 

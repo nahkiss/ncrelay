@@ -1,8 +1,16 @@
 {
-    "name": "ncrelay"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "jerk": "~1.1.15"
-  }
+	"name": "ncrelay"
+	, "description" : "Relay messages and other data between vanilla minecraft instance and irc-channel"
+	, "author" : "Tero Heino <tero.heino@iki.fi> (http://teroheino.fi)"
+	, "contributors" :
+		[ "foo <foo@bar> (http://foo)"
+		]
+	, "version": "0.0.1"
+	, "private": true
+	, "dependencies": {
+		"jerk": "latest"
+		, "coloured": "latest"
+		, "log": "latest"
+	}
+	, "engines" : [ "latest" ]
 }
