@@ -1,0 +1,8 @@
+{
+    "name": "ncrelay"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "jerk": "~1.1.15"
+  }
+}
